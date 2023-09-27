@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+
+body{
+    background-image: url('bg1.jpg');
+    /* background: url(ManOnMusic.jpg) no-repeat center center fixed; */
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    /* font-family: 'Ysabeau SC', sans-serif; */
+    font-family: 'Tektur', cursive;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.brand img{
+    width: 55px;
+    padding: 0px 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    display: flex;
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Tektur', cursive;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 20px;
+    padding: 34px;
+    /* background-image: url('bg2.jpg'); */
+    /* background: url(bg1.jpg) no-repeat center center fixed; */
+    background: url('bg2.jpg') no-repeat center center fixed;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    height: 80px;
+    background-color:rgb(0, 0, 0);
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#Myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+    text-align: center;
+}
+
+.songItemcontainer{
+    margin-top: 54px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color:white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Tektur', cursive;
+
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.bottom .songinfo img{
+    height: 70px;
+    position: absolute;
+    left: -80px;
+    bottom: -25px;
+    width: 70px;
+}

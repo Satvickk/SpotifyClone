@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Music Is Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="SpotifyLogo.png" alt="Spotify"> <span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Top Gaming Tracks of - 2023</h1>
+            <div class="songItemcontainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songname"></span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:34<i id="0" class="far songItemplay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songname"></span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:34<i id="1" class="far songItemplay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songname"></span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:34<i id="2" class="far songItemplay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songname"></span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:34<i id="3" class="far songItemplay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songname"></span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:34<i id="4" class="far songItemplay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songname"></span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:34<i id="5" class="far songItemplay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="songBanner">
+
+        </div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="Myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i id="masterplay" class="songItemplay fas fa-2x fa-play-circle" ></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+        <img src="MusicDisk.gif" alt="" id="gif">
+             <span id="mastersongname">Fashion pop</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/8e6c54fb3d.js" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
