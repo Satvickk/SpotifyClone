@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Spotify Clone project! This project aims to replicate some of the key features of the popular music streaming service, Spotify. With the use of HTML, CSS, and JavaScript's Audio Library, you can create a simple yet functional music player.
+ This project aims to replicate some of the key features of the popular music streaming service, Spotify. With the use of HTML, CSS, and JavaScript's Audio Library, I created a simple yet functional music player.
 
 ## Getting Started
 
